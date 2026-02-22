@@ -8,21 +8,38 @@
 ## Example use
 
 ### Extract to file
-`tshark -r <filename> -T fields -e frame.number -e ip.src -e ip.dst -e tcp.port -E header=y -E separator=, > analysis.csv`
+```bash
+tshark -r <filename> -T fields -e frame.number -e ip.src -e ip.dst -e tcp.port -E header=y -E separator=, > analysis.csv
+```
 
 ### Hunting DNS
-`tshark -r <filename> -Y "dns.flags.response == 0" -T fields -e dns.qry.name`
+```bash
+tshark -r <filename> -Y "dns.flags.response == 0" -T fields -e dns.qry.name
+```
 
 ### Top Talker
-`tshark -r <filename> -z conv,ip -q`
+```bash
+tshark -r <filename> -z conv,ip -q
+```
 
 ## Tshark Live
 
 ### HTTP Monitoring
-`tshark -i <interface> -n -Y "http.request" -T fields -e ip.src -e http.post -e http.request.uri`
+```bash
+tshark -i <interface> -n -Y "http.request" -T fields -e ip.src -e http.post -e http.request.uri
+```
 
 ### TCP Retransmission
-`tshark -1 <interface> -Y "tcp.analysis.retransmission"`
+```bash
+tshark -1 <interface> -Y "tcp.analysis.retransmission"
+```
 
 ### Grepping Data
-`tshark -r <filename> -Y "frame contains \"password\"" -V` 
+```bash
+tshark -r <filename> -Y "frame contains \"password\"" -V
+```
+
+### Grep JSON Data
+```bash
+tshark -r <filename> -Y "json and frame.number == 62" -T fields -e http.file_data | xxd -r -p | jq
+```
