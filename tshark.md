@@ -29,6 +29,10 @@ tshark -r <filename> -z conv,ip -q
 tshark -i <interface> -n -Y "http.request" -T fields -e ip.src -e http.post -e http.request.uri
 ```
 
+```bash
+tshark -r <filename> -i3 -Y "http.request.method || http.response" -T fields -e frame.time -e frame.time_delta -e tcp.stream -e http.request.method -e http.response.code -e http.user_agent -E separator="|"
+```
+
 ### TCP Retransmission
 ```bash
 tshark -1 <interface> -Y "tcp.analysis.retransmission"
