@@ -5,6 +5,22 @@
 -T format output
 -e field to print
 
+##
+
+## Fields
+#### Time
+can use -t <u: utc|a: local>
+- frame.time
+- frame.time_epoch
+- frame.time_delta
+- frame.time_relative
+
+#### Json
+- json.value.string
+
+#### Normal
+- ip.src
+
 ## Example use
 
 ### Extract to file
