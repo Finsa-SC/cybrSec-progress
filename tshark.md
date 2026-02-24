@@ -63,3 +63,8 @@ tshark -r <filename> -Y "frame contains \"password\"" -V
 ```bash
 tshark -r <filename> -Y "json and frame.number == 62" -T fields -e http.file_data | xxd -r -p | jq
 ```
+
+### Grep Activity
+```bash
+tshark -r /tmp/WIRESHARK_LOGS/traffic-log_00001_20260224174005.pcupng -Y "json and http.request.method == POST" -V | grep -E "Arrival Time|Source Address|Key:|String value:"
+```
