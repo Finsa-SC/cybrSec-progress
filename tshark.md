@@ -19,7 +19,10 @@ can use -t <u: utc|a: local>
 - json.value.string
 
 #### Normal
+- frame.number
 - ip.src
+- ip.dst
+- ip.addr
 
 ## Example use
 
