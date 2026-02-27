@@ -7,7 +7,7 @@ change permission to file to owner, group and other
 - writeable = 2
 - executeable = 1
 
-using the incremental method to combine permission
+> using the incremental method to combine permission
 
 #### Example:
 ```
@@ -26,7 +26,7 @@ using the incremental method to combine permission
 - 7 = rwx
 ##
 
-change file or directory mode
+> change file or directory mode
 
 - first number is for owner
 - second number is for group
@@ -77,7 +77,7 @@ you can also set permission persis
 ```bash
 chmod u=rwx,g=rx,o= filename
 ```
-it will give owner the full privilege and group can only read and execute file
+> it will give owner the full privilege and group can only read and execute file
 
 ##
 
@@ -111,3 +111,9 @@ and other people are not allowed to do anything.
 
 default directory mask value is ```777```
 and default file mask value is ```666```
+
+---
+
+### SetFacl
+is a much more **modern and flexible** permissions system than traditional `chmod`.
+
