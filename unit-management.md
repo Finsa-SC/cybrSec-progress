@@ -67,7 +67,7 @@ sudo systemctl edit [service].service
 
 #### some standard configurations__
 
-- `ProtectHome=yes`: untuk membuat user didalam tidak dapat mengakses home ataupun root directory, jika user memaksa maka dia tidak akan mendapat daftar apa apa.
-- `ProtectSystem`: Untuk pembatasan user dalam pengaksesan folder
-- `NoNewPrevileges=yes`: Service tidak akan pernah bisa menaikan tingkat kekuasaannya/naik menjadi super user(root)
-- `PrivateTmp`: Membuat Temporary khusus yang terpisah denga /tmp biasanya
+- `ProtectHome=yes`: to prevent users inside from accessing the home or root directory, if the user forces it then he will not get any list.
+- `ProtectSystem`: To limit user access to folders
+- `NoNewPrevileges=yes`: Service will never be able to increase its power level/rise to super user (root)
+- `PrivateTmp`: Create a special Temporary that is separate from the usual /tmp
