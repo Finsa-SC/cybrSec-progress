@@ -67,7 +67,19 @@ sudo systemctl edit [service].service
 
 #### some standard configurations__
 
-- `ProtectHome=yes`: to prevent users inside from accessing the home or root directory, if the user forces it then he will not get any list.
-- `ProtectSystem`: To limit user access to folders
-- `NoNewPrevileges=yes`: Service will never be able to increase its power level/rise to super user (root)
-- `PrivateTmp`: Create a special Temporary that is separate from the usual /tmp
+```bash
+## to prevent users inside from accessing the home or root directory, if the user forces it then he will not get any list.
+ProtectHome=yes
+
+## To limit user access to folders
+ProtectSystem=full
+# yes: make /usr and /boot read-only
+# full: make /usr, /boot and /etc read-only
+# strict: make all file system to read-only
+
+## Service will never be able to increase its power level/rise to super user (root)
+NoNewPrevileges=yes
+
+## Create a special Temporary that is separate from the usual /tmp
+PrivateTmp=yes
+```
