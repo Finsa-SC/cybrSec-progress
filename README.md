@@ -84,3 +84,5 @@ my learning path
 > Learn about Netfilter using NFTables
 >
 > Learn about Net Filter Rule
+#### 15 Mar 2026
+> Learn RegEx
