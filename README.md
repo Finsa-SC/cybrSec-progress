@@ -85,4 +85,5 @@ my learning path
 >
 > Learn about Net Filter Rule
 #### 15 Mar 2026
+> Learn Fail2Ban
 > Learn RegEx
