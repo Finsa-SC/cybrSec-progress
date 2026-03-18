@@ -87,3 +87,6 @@ my learning path
 #### 15 Mar 2026
 > Learn Fail2Ban
 > Learn RegEx
+
+#### 18 Mar 2026
+> Learn RegEx more deep
