@@ -75,7 +75,6 @@ my learning path
 
 #### 11 Mar 2026
 > Learn about Container Environment Variable
->
 > Learn auto backup Database with image prodrigestivill
 
 ---
@@ -90,3 +89,8 @@ my learning path
 
 #### 18 Mar 2026
 > Learn RegEx more deep
+
+#### 19 Mar 2026
+> Learn back about setfacl
+> Learn the file search command like find and locate
+> Learn RegEx lookahead and lookbehind
