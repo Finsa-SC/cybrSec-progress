@@ -94,3 +94,6 @@ my learning path
 > Learn back about setfacl
 > Learn the file search command like find and locate
 > Learn RegEx lookahead and lookbehind
+
+#### 21 Mar 2026
+> Learn Python Class
