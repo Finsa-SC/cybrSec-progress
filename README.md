@@ -97,3 +97,6 @@ my learning path
 
 #### 21 Mar 2026
 > Learn Python Class
+
+#### 22 Mar 2026
+> Learn Kubernetes with kubectl and minikube
