@@ -100,3 +100,6 @@ my learning path
 
 #### 22 Mar 2026
 > Learn Kubernetes with kubectl and minikube
+
+#### 23 Mar 2026
+> Learn python class decorator
