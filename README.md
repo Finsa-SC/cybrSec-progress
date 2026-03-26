@@ -68,7 +68,6 @@ my learning path
 
 #### 10 Mar 2026
 > Learn about JWT and hashing with argon2
->
 > Learn about Server Hardening
 
 ---
@@ -99,7 +98,11 @@ my learning path
 > Learn Python Class
 
 #### 22 Mar 2026
-> Learn Kubernetes with kubectl and minikube
+> Learn basic Kubernetes with kubectl and minikube
 
 #### 23 Mar 2026
 > Learn python class decorator
+
+#### 24 Mar 2026
+> Learn service and deployment kubernetes
+> Learn basic kubectl and minikube terminal command
