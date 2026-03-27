@@ -106,3 +106,6 @@ my learning path
 #### 24 Mar 2026
 > Learn service and deployment kubernetes
 > Learn basic kubectl and minikube terminal command
+
+#### 25 Mar 2026 -> 27 Mar 2026
+> Learn yaml syntax in kubernetes
