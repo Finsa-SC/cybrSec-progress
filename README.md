@@ -82,17 +82,26 @@ my learning path
 > Learn about Netfilter using NFTables
 >
 > Learn about Net Filter Rule
+
+---
+
 #### 15 Mar 2026
 > Learn Fail2Ban
 > Learn RegEx
 
+---
+
 #### 18 Mar 2026
 > Learn RegEx more deep
+
+---
 
 #### 19 Mar 2026
 > Learn back about setfacl
 > Learn the file search command like find and locate
 > Learn RegEx lookahead and lookbehind
+
+---
 
 #### 21 Mar 2026
 > Learn Python Class
@@ -100,12 +109,23 @@ my learning path
 #### 22 Mar 2026
 > Learn basic Kubernetes with kubectl and minikube
 
+---
+
 #### 23 Mar 2026
 > Learn python class decorator
+
+---
 
 #### 24 Mar 2026
 > Learn service and deployment kubernetes
 > Learn basic kubectl and minikube terminal command
 
+---
+
 #### 25 Mar 2026 -> 27 Mar 2026
 > Learn yaml syntax in kubernetes
+
+---
+
+#### 28 Mark 2026 -> 27 Mar 2026
+> Learn in Try Hack Me
