@@ -132,3 +132,18 @@ my learning path
 
 #### 31 Mar 2026
 > Learn Virtual Mechine
+
+#### 1 Apr 2026
+> Make Process Forker Project
+> Learn About Multi Processing
+
+#### 2 Apr 2026
+> Learn About Methodologies
+> Learn About Black Box, Grey Box, and White Box
+
+#### 3 Apr 2026
+> Learn Kali Linux
+> Learn How to Scan Target
+> Learn How to Gathering Information
+> Learn Crack Password Using John The Ripper tools
+> Learn How to Arp Spoofing Using arpspoof
