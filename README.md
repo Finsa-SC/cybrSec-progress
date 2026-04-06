@@ -147,3 +147,10 @@ my learning path
 > Learn How to Gathering Information
 > Learn Crack Password Using John The Ripper tools
 > Learn How to Arp Spoofing Using arpspoof
+
+#### 4 Apr 2026 - 5 Apr 2026
+> Learn How to Exploit Metasploit2
+
+#### 5 Apr 2026
+> Learn How to Exploit ssh
+> Learn How to Hardening ssh
