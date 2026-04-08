@@ -151,6 +151,12 @@ my learning path
 #### 4 Apr 2026 - 5 Apr 2026
 > Learn How to Exploit Metasploit2
 
-#### 5 Apr 2026
+#### 6 Apr 2026 - 7 Apr 2026
 > Learn How to Exploit ssh
 > Learn How to Hardening ssh
+
+#### 8 Apr 2026
+> Learh How to gathering information
+> Learn OSINT
+> Learn shodan & censys search engine
+> Learn DNS History
