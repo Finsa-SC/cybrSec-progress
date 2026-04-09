@@ -130,16 +130,24 @@ my learning path
 #### 28 Mar 2026 -> 30 Mar 2026
 > Learn in Try Hack Me
 
+---
+
 #### 31 Mar 2026
 > Learn Virtual Mechine
+
+---
 
 #### 1 Apr 2026
 > Make Process Forker Project
 > Learn About Multi Processing
 
+---
+
 #### 2 Apr 2026
 > Learn About Methodologies
 > Learn About Black Box, Grey Box, and White Box
+
+---
 
 #### 3 Apr 2026
 > Learn Kali Linux
@@ -148,15 +156,27 @@ my learning path
 > Learn Crack Password Using John The Ripper tools
 > Learn How to Arp Spoofing Using arpspoof
 
+---
+
 #### 4 Apr 2026 - 5 Apr 2026
 > Learn How to Exploit Metasploit2
+
+---
 
 #### 6 Apr 2026 - 7 Apr 2026
 > Learn How to Exploit ssh
 > Learn How to Hardening ssh
+
+---
 
 #### 8 Apr 2026
 > Learh How to gathering information
 > Learn OSINT
 > Learn shodan & censys search engine
 > Learn DNS History
+
+---
+
+#### 9 Apr 2026
+> Learn How to recon a website
+> Learn information gathering with google dorking
