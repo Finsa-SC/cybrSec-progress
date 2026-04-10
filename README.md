@@ -180,3 +180,8 @@ my learning path
 #### 9 Apr 2026
 > Learn How to recon a website
 > Learn information gathering with google dorking
+
+---
+
+#### 10 Apr 2026
+> Learn Whonix (Private Network)
